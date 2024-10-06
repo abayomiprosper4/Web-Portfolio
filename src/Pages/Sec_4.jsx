@@ -8,8 +8,9 @@ function Sec_4() {
   const Section4 = () => (
     <section
       id="contact"
-      className="min-h-[84vh] bg-hero-pattern bg-fixed w-full flex flex-col justify-center items-center"> 
-      {/* bg-gradient-to-br from-neutral-900 to-gray-800 */}
+      className="min-h-[84vh] bg-hero-pattern bg-cover bg-center bg-fixed w-full flex flex-col justify-center items-center"> 
+      <a href="https://www.freepik.com/free-vector/paper-style-white-monochrome-background_15185922.htm#fromView=search&page=1&position=30&uuid=39a868c9-1f69-4b53-8845-903d05be77af"><span className="text-white">Image by freepik</span>
+      </a>
       <div className="contact flex flex-col items-center text-center">
         <div className="txt03 py-8 text-4xl md:text-6xl font-semibold">
           Get In Touch <LuLink className="inline text-5xl text-orange-400" />

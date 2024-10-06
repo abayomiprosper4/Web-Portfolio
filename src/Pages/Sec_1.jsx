@@ -31,13 +31,15 @@ function Sec_1() {
       <div className="inset-0 h-auto bg-black bg-opacity-40 absolute"></div>
 
       <video
-        className=" inset-0 h-full w-full fixed object-cover -z-10"
+        className=" inset-0 h-full object-center w-full fixed object-cover -z-10"
         src="/src/assets/bg_video - Made with Clipchamp.mp4"
         autoPlay
         loop
         muted
         playsInline
       />
+      <a href="https://www.freepik.com/free-video/motion-graphic-abstract-background-with-memphis-elements_3294781#fromView=search&page=1&position=3&uuid=9f729f58-85e2-4bc5-b0ba-d0b310a86d44">Video by freepik</a>
+
 
       <section
         id="home"
@@ -49,7 +51,7 @@ function Sec_1() {
               <div>
                 <span className="title font-semibold">
                   <div
-                    className={`txt01 mb-2 text-7xl lg:text-8xl font-bold  text-red-600 transition-all duration-1000 ${
+                    className={`txt01 mb-2 text-7xl lg:text-8xl font-bold transition-all duration-1000 bg-gradient-to-r from-orange-700 via-orange-500 to-orange-400 inline-block text-transparent bg-clip-text ${
                       animationStage >= 1
                         ? "opacity-100 translate-y-0"
                         : "opacity-0 translate-y-10"
@@ -86,13 +88,13 @@ function Sec_1() {
               >
                 <a
                   href="#"
-                  className="flex items-center text-white border mr-5 lg:mb-0 mb-5 border-white px-10 py-3 rounded-[10px] transition-all hover:bg-red-600 ease-in-out duration-200"
+                  className="flex items-center text-white border mr-5 lg:mb-0 mb-5 border-white px-10 py-3 rounded-[10px] transition-all hover:bg-orange-600 ease-in-out duration-200"
                 >
                   Resume <FiFile className="inline text-lg ml-1" />
                 </a>
                 <a
                   href="#about"
-                  className="text-white scroll-smooth flex items-center border border-white px-10 py-3 rounded-[10px] transition-all hover:bg-red-600 ease-in-out duration-200"
+                  className="text-white scroll-smooth flex items-center border border-white px-10 py-3 rounded-[10px] transition-all hover:bg-orange-600 ease-in-out duration-200"
                 >
                   View Portfolio <FiArrowDown className="inline ml-1" />
                 </a>

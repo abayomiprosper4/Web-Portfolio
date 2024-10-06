@@ -7,6 +7,7 @@ import Chowfest from "./assets/IMG-20240715-WA0015.jpg";
 import VCLogo from "./assets/VC_logo.png";
 import XLogo from "./assets/Twitter-X-Logo-PNG.png";
 import WhiteBG from "./assets/5569540.jpg";
+import WhiteBG2 from "./assets/—Pngtree—elegant white background with rectangle_2025279.png";
 
 export const assets = {
   icon_circle,
@@ -18,4 +19,5 @@ export const assets = {
   VCLogo,
   XLogo,
   WhiteBG,
+  WhiteBG2,
 };

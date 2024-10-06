@@ -14,7 +14,7 @@ function Sec_2() {
   const Section2 = () => (
     <section
       id="about"
-      className="relative scroll-smooth h-full w-full sm:w-full md:w-full lg:w-full xl:w-full bg-teal-50"
+      className="relative bg-hero-pattern2 bg-center bg-cover scroll-smooth h-full w-full sm:w-full md:w-full lg:w-full xl:w-full bg-teal-50"
     >
       <div className="absolute my-6 lg:left-[42.5%] left-[35%]  text-[35px]">
         <div className="flex items-center">
@@ -31,10 +31,18 @@ function Sec_2() {
             <div className="float-left mt-14 flex">
               <div className="bg-gray-900 text-white py-[16%] w-96 sm:w-full md:w-full sm:py-[20%] md:py-[19%] mt-24 mx-10 px-12 lg:py-[21%] lg:w-96 xl:w-full">
                 <p className="text-[17px] mb-4">
-                Fueled by a passion for technology and creativity, I seamlessly blend web development with strategic social media management to create impactful digital experiences. I thrive in collaborative environments, eagerly embracing opportunities to learn and innovate. 
+                  Fueled by a passion for technology and creativity, I
+                  seamlessly blend web development with strategic social media
+                  management to create impactful digital experiences. I thrive
+                  in collaborative environments, eagerly embracing opportunities
+                  to learn and innovate.
                 </p>
                 <p className="text-[17px]">
-                With an eye on the latest industry trends, I constantly explore new tools and techniques to elevate my skills. When I'm not coding or crafting engaging content, I'm dedicated to pushing the boundaries of what's possible in the digital landscape.
+                  With an eye on the latest industry trends, I constantly
+                  explore new tools and techniques to elevate my skills. When
+                  I'm not coding or crafting engaging content, I'm dedicated to
+                  pushing the boundaries of what's possible in the digital
+                  landscape.
                 </p>
               </div>
               <div className="bg-red-600 px-5 border-transparent border-t-2 border-r-2 py-16 lg:py-28 lg:pb-5 md:py-24 absolute text-white md:translate-y-16 translate-y-12 hover:translate-x-24 hover:bg-transparent hover:text-transparent hover:border-red-600 hover:border-t-2 hover:border-r-2 transition-all ease-in-out duration-500 w-96 lg:w-[36%] sm:w-[80%] md:w-[82%] xl:text-[17px] sm:text-[17px]">
@@ -43,7 +51,10 @@ function Sec_2() {
                   Developer <FiCode className="inline ml-1 items-center" />
                 </div>
                 <p className="text-[17px] mb-6">
-                  I'm a Front-end web Developer on a mission to craft seamless, responsive experiences for users. With a keen eye for detail, I tranform ideas into stunning and eye-catching web applications!
+                  I'm a Front-end web Developer on a mission to craft seamless,
+                  responsive experiences for users. With a keen eye for detail,
+                  I tranform ideas into stunning and eye-catching web
+                  applications!
                 </p>
                 <div className="font-semibold mb-2">
                   <span className="underline underline-offset-4">Social</span>
@@ -51,7 +62,10 @@ function Sec_2() {
                   <FiCamera className="inline ml-1 items-center" />
                 </div>
                 <p className="text-[17px]">
-                As a social media manager, I bring brands to life through engaging content strategies that captivate audiences. I dive deep into analytics to fine-tune campaigns, building authentic connections and fueling growth for the brands I manage.
+                  As a social media manager, I bring brands to life through
+                  engaging content strategies that captivate audiences. I dive
+                  deep into analytics to fine-tune campaigns, building authentic
+                  connections and fueling growth for the brands I manage.
                 </p>
                 <div className="float-right animate-bounce pt-3 sm:text-sm text-lg sm:pt-4 md:pt-8 lg:pt-16">
                   Hover To See More <FiChevronRight className="inline" />
@@ -99,19 +113,25 @@ function Sec_2() {
                 </div>
                 <ul className="list-none flex justify-center items-center p-0  mt-4 flex-wrap">
                   <li className="flex flex-col items-center justify-center mb-4 mx-5">
-                    <a href="https://www.instagram.com/vanillabyaria/"><img
-                      src={assets.VCLogo}
-                      alt="Vanilla Concierge"
-                      className="w-20 h-20 rounded-full hover:scale-125 duration-200 hover:shadow-gray-600 hover:shadow-md"
-                    /></a>
-                    <span className="py-3 font-semibold">VANILLA CONCIERGE</span>
+                    <a href="https://www.instagram.com/vanillabyaria/">
+                      <img
+                        src={assets.VCLogo}
+                        alt="Vanilla Concierge"
+                        className="w-20 h-20 rounded-full hover:scale-125 duration-200 hover:shadow-gray-600 hover:shadow-md"
+                      />
+                    </a>
+                    <span className="py-3 font-semibold">
+                      VANILLA CONCIERGE
+                    </span>
                   </li>
                   <li className="flex flex-col items-center justify-center mb-4 mx-5">
-                    <a href="https://www.instagram.com/chowfestng/"><img
-                      src={assets.Chowfest}
-                      alt="Chowfest Nigeria"
-                      className="w-20 h-20 rounded-full hover:scale-125 duration-200 hover:shadow-gray-600 hover:shadow-md"
-                    /></a>
+                    <a href="https://www.instagram.com/chowfestng/">
+                      <img
+                        src={assets.Chowfest}
+                        alt="Chowfest Nigeria"
+                        className="w-20 h-20 rounded-full hover:scale-125 duration-200 hover:shadow-gray-600 hover:shadow-md"
+                      />
+                    </a>
                     <span className="py-3 font-semibold">CHOWFEST NG</span>
                   </li>
                 </ul>
