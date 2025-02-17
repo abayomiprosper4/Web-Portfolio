@@ -107,10 +107,10 @@ function Navbar() {
                 </button>
                 {(activeSection === section || hoveredSection === section) && (
                   <motion.div
-                    className="absolute left-0 ml-2 bottom-0 h-0.5 bg-orange-500 rounded"
+                    className="absolute left-0 ml-2 bottom-0 h-1 bg-orange-500 rounded"
                     layoutId="underline"
                     initial={false}
-                    animate={{ width: "60%" }}
+                    animate={{ width: "70%" }}
                     transition={{ duration: 0.3 }}
                   />
                 )}
@@ -119,7 +119,7 @@ function Navbar() {
           </ul>
         </div>
         <button
-          className="lg:hidden cursor-pointer hover:bg-gray-700 p-2 rounded-md hover:bg-opacity-50 duration-200 text-white z-60"
+          className="lg:hidden cursor-pointer hover:bg-gray-800 p-2 rounded-md hover:bg-opacity-50 duration-200 text-white z-60"
           onClick={() => setIsMobileNavVisible(!isMobileNavVisible)}
         >
           <FiList className="text-4xl" />
@@ -128,15 +128,15 @@ function Navbar() {
 
       {/* Mobile Navbar */}
       <div
-        className={`fixed top-0 left-0 h-screen bg-black bg-opacity-95 z-50 w-1/2 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 max-h-[150vh] bg-black bg-opacity-90 z-50 w-2/5 transform transition-transform duration-300 ease-in-out ${
           isMobileNavVisible ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex flex-col items-center mt-20 p-6">
+        <div className="flex flex-col items-center my-16 p-6">
           {["home", "about", "projects", "contact"].map((section) => (
             <button
               key={section}
-              className={`my-4 duration-200 cursor-pointer text-white text-lg hover:bg-opacity-35 hover:bg-gray-700 py-2 px-4 rounded-md ${
+              className={`my-7 duration-200  cursor-pointer text-white text-lg hover:bg-opacity-35 hover:bg-gray-700 py-3 px-4 rounded-md ${
                 activeSection === section ? "bg-gradient-to-r from-orange-600 to-orange-400 bg-opacity-35" : ""
               }`}
               onClick={() => handleMobileLinkClick(section)}

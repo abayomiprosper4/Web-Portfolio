@@ -31,7 +31,7 @@ function Sec_2() {
             <div className="float-left mt-14 flex">
               <div className="bg-gray-900 text-white py-[16%] w-96 sm:w-full md:w-full sm:py-[20%] md:py-[19%] mt-24 mx-10 px-12 lg:py-[21%] lg:w-96 xl:w-full">
                 <p className="text-[17px] mb-4">
-                  Fueled by a passion for technology and creativity, I
+                  Fueled by a passion for <span className="underline-offset-2 underline italic">technology</span> and <span className="underline-offset-2 underline italic">creativity</span>, I
                   seamlessly blend web development with strategic social media
                   management to create impactful digital experiences. I thrive
                   in collaborative environments, eagerly embracing opportunities

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { assets } from "../assets";
 import { FiFile, FiArrowDown } from "react-icons/fi";
 
 function Sec_1() {
@@ -32,13 +33,13 @@ function Sec_1() {
 
       <video
         className=" inset-0 h-full object-center w-full fixed object-cover -z-10"
-        src="/src/assets/bg_video - Made with Clipchamp.mp4"
+        src="src/assets/6913203_Motion Graphics_Motion Graphic_3840x2160.mp4"
         autoPlay
         loop
         muted
         playsInline
       />
-      <a href="https://www.freepik.com/free-video/motion-graphic-abstract-background-with-memphis-elements_3294781#fromView=search&page=1&position=3&uuid=9f729f58-85e2-4bc5-b0ba-d0b310a86d44">Video by freepik</a>
+      <a href="https://www.freepik.com/free-video/motion-graphic-abstract-background-with-memphis-elements_3294781#fromView=search&page=1&position=3&uuid=9f729f58-85e2-4bc5-b0ba-d0b310a86d44" className="text-transparent">Video by freepik</a>
 
 
       <section
@@ -87,7 +88,8 @@ function Sec_1() {
                 }`}
               >
                 <a
-                  href="#"
+                  href="src/assets/Prosper CV.pdf"
+                  download={assets.Resume}
                   className="flex items-center text-white border mr-5 lg:mb-0 mb-5 border-white px-10 py-3 rounded-[10px] transition-all hover:bg-orange-600 ease-in-out duration-200"
                 >
                   Resume <FiFile className="inline text-lg ml-1" />

@@ -13,7 +13,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-w-[70vh] scroll-smooth">
+    <div className="min-w-[100vh] scroll-smooth">
       <Navbar />
       <section id="home" className="min-w-full sm:min-w-140vh">
         <Sec_1 />
