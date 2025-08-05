@@ -39,8 +39,12 @@ function Sec_1() {
         muted
         playsInline
       />
-      <a href="https://www.freepik.com/free-video/motion-graphic-abstract-background-with-memphis-elements_3294781#fromView=search&page=1&position=3&uuid=9f729f58-85e2-4bc5-b0ba-d0b310a86d44" className="text-transparent">Video by freepik</a>
-
+      <a
+        href="https://www.freepik.com/free-video/motion-graphic-abstract-background-with-memphis-elements_3294781#fromView=search&page=1&position=3&uuid=9f729f58-85e2-4bc5-b0ba-d0b310a86d44"
+        className="text-transparent"
+      >
+        Video by freepik
+      </a>
 
       <section
         id="home"
@@ -72,7 +76,7 @@ function Sec_1() {
                 </span>
               </div>
               <p
-                className={`subtitle text-md my-12 font-mono tracking-wide transition-all duration-1000 ${
+                className={`subtitle text-lg my-12 font-mono tracking-wide transition-all duration-1000 ${
                   animationStage >= 3
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-10"
@@ -89,16 +93,23 @@ function Sec_1() {
               >
                 <a
                   href="src/assets/Prosper CV.pdf"
-                  download={assets.Resume}
-                  className="flex items-center text-white border mr-5 lg:mb-0 mb-5 border-white px-10 py-3 rounded-[10px] transition-all hover:bg-orange-600 ease-in-out duration-200"
+                  download
+                  className="relative group inline-flex items-center border border-white text-white px-10 py-3 rounded-[5px] overflow-hidden transition-colors duration-300 mr-5 lg:mb-0 mb-5"
                 >
-                  Resume <FiFile className="inline text-lg ml-1" />
+                  <span className="relative z-10 flex items-center">
+                    Resume <FiFile className="inline text-lg ml-1" />
+                  </span>
+                  <span className="absolute inset-0 bg-red-600 transform scale-x-0 origin-right transition-transform duration-300 group-hover:scale-x-100 group-hover:origin-left" />
                 </a>
                 <a
-                  href="#about"
-                  className="text-white scroll-smooth flex items-center border border-white px-10 py-3 rounded-[10px] transition-all hover:bg-orange-600 ease-in-out duration-200"
+                  href=""
+                  download
+                  className="relative group inline-flex items-center border border-white text-white px-10 py-3 rounded-[5px] overflow-hidden transition-colors duration-5 00 mr-5 lg:mb-0 mb-5"
                 >
-                  View Portfolio <FiArrowDown className="inline ml-1" />
+                  <span className="relative z-10 flex items-center">
+                    Explore Portfolio <FiArrowDown className="inline text-lg ml-1" />
+                  </span>
+                  <span className="absolute inset-0 bg-red-600 transform scale-x-0 origin-right transition-transform duration-500 group-hover:scale-x-100 group-hover:origin-left" />
                 </a>
               </div>
             </div>

@@ -57,7 +57,7 @@ function Sec_2() {
                   applications!
                 </p>
                 <div className="font-semibold mb-2">
-                  <span className="underline underline-offset-4">Social</span>
+                  <span className="underline underline-offset-4">Social </span> 
                   Media Manager
                   <FiCamera className="inline ml-1 items-center" />
                 </div>

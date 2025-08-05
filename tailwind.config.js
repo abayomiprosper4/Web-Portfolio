@@ -6,7 +6,8 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('./assets/5569540.jpg')",
-        'hero-pattern2': "url('./assets/—Pngtree—elegant white background with rectangle_2025279.png')"
+        'hero-pattern2': "url('./assets/—Pngtree—elegant white background with rectangle_2025279.png')",
+        'hero-pattern3': "url('./assets/6227820.jpg')"
       }
     },
   },
