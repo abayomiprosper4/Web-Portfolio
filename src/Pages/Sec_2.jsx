@@ -21,7 +21,9 @@ function Sec_2() {
           <div className="text-red-600 text-2xl sm:text-3xl md:text-4xl lg:text-[45px] font-semibold">
             A<span className="border-b-2 border-black">BOU</span>T
           </div>
-          <span className="ml-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl">ME</span>
+          <span className="ml-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+            ME
+          </span>
         </div>
       </div>
 
@@ -33,44 +35,54 @@ function Sec_2() {
                 {/* Blue box - always present, visible when red box slides away */}
                 <div className="absolute inset-0 bg-gray-900 text-white p-6 sm:p-8 md:p-10 lg:p-12 z-10 flex flex-col justify-center">
                   <p className="text-sm sm:text-base md:text-[17px] mb-4">
-                    Fueled by a passion for <span className="underline-offset-2 underline italic">technology</span> and <span className="underline-offset-2 underline italic">creativity</span>, I
-                    seamlessly blend web development with strategic social media
-                    management to create impactful digital experiences. I thrive
-                    in collaborative environments, eagerly embracing opportunities
-                    to learn and innovate.
+                    Fueled by a passion for{" "}
+                    <span className="underline-offset-2 underline italic">
+                      technology
+                    </span>{" "}
+                    and{" "}
+                    <span className="underline-offset-2 underline italic">
+                      creativity
+                    </span>
+                    , I seamlessly blend web development with strategic social
+                    media management to create impactful digital experiences. I
+                    thrive in collaborative environments, eagerly embracing
+                    opportunities to learn and innovate.
                   </p>
                   <p className="text-sm sm:text-base md:text-[17px]">
                     With an eye on the latest industry trends, I constantly
                     explore new tools and techniques to elevate my skills. When
-                    I'm not coding or crafting engaging content, I'm dedicated to
-                    pushing the boundaries of what's possible in the digital
+                    I'm not coding or crafting engaging content, I'm dedicated
+                    to pushing the boundaries of what's possible in the digital
                     landscape.
                   </p>
                 </div>
-                
-                {/* Red box - slides left on hover, slides back on mouse leave */}
-                <div className="absolute inset-0 bg-red-600 p-6 sm:p-8 md:p-10 lg:p-12 text-white hover:-translate-x-full transition-transform duration-500 z-20 flex flex-col justify-between cursor-pointer">
+
+                {/* Red box - slides left and fades on hover, returns on mouse leave */}
+                <div className="absolute inset-0 bg-red-600 p-6 sm:p-8 md:p-10 lg:p-12 text-white transition-all duration-500 ease-in-out z-20 flex flex-col justify-between cursor-pointer transform hover:scale-150 hover:rotate-180 hover:opacity-0 opacity-100">
                   <div>
                     <div className="font-semibold mb-4 text-sm sm:text-base">
-                      <span className="underline underline-offset-4">Web</span>
+                      <span className="underline underline-offset-4">Web </span>
                       Developer <FiCode className="inline ml-1 items-center" />
                     </div>
                     <p className="text-xs sm:text-sm md:text-base lg:text-[17px] mb-6 lg:mb-8">
-                      I'm a Front-end web Developer on a mission to craft seamless,
-                      responsive experiences for users. With a keen eye for detail,
-                      I transform ideas into stunning and eye-catching web
-                      applications!
+                      I'm a Front-end web Developer on a mission to craft
+                      seamless, responsive experiences for users. With a keen
+                      eye for detail, I transform ideas into stunning and
+                      eye-catching web applications!
                     </p>
                     <div className="font-semibold mb-4 text-sm sm:text-base">
-                      <span className="underline underline-offset-4">Social </span> 
+                      <span className="underline underline-offset-4">
+                        Social{" "}
+                      </span>
                       Media Manager
                       <FiCamera className="inline ml-1 items-center" />
                     </div>
                     <p className="text-xs sm:text-sm md:text-base lg:text-[17px] mb-6">
                       As a social media manager, I bring brands to life through
-                      engaging content strategies that captivate audiences. I dive
-                      deep into analytics to fine-tune campaigns, building authentic
-                      connections and fueling growth for the brands I manage.
+                      engaging content strategies that captivate audiences. I
+                      dive deep into analytics to fine-tune campaigns, building
+                      authentic connections and fueling growth for the brands I
+                      manage.
                     </p>
                   </div>
                   <div className="text-right animate-bounce text-xs sm:text-sm md:text-base lg:text-lg">
@@ -139,7 +151,9 @@ function Sec_2() {
                         className="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-full hover:scale-110 sm:hover:scale-125 duration-200 hover:shadow-gray-600 hover:shadow-md"
                       />
                     </a>
-                    <span className="py-2 sm:py-3 font-semibold text-xs sm:text-sm md:text-base">CHOWFEST NG</span>
+                    <span className="py-2 sm:py-3 font-semibold text-xs sm:text-sm md:text-base">
+                      CHOWFEST NG
+                    </span>
                   </li>
                 </ul>
               </div>
