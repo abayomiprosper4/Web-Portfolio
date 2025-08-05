@@ -33,7 +33,7 @@ function Sec_1() {
 
       <video
         className=" inset-0 h-full object-center w-full fixed object-cover -z-10"
-        src="src/assets/6913203_Motion Graphics_Motion Graphic_3840x2160.mp4"
+        src="public/motion.mp4"
         autoPlay
         loop
         muted
