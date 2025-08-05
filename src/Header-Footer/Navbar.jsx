@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { assets } from "../assets";
 import { FiList } from "react-icons/fi";
@@ -83,7 +84,7 @@ function Navbar() {
 
   return (
     <div
-      className={`fixed w-full top-0 left-0 z-50 transition-transform duration-300 ease-in-out ${
+      className={`fixed w-full top-0 min-h-full left-0 z-50 transition-transform duration-300 ease-in-out ${
         showNavbar ? "translate-y-0" : "-translate-y-full"
       }`}
     >
@@ -128,7 +129,7 @@ function Navbar() {
 
       {/* Mobile Navbar */}
       <div
-        className={`fixed top-0 left-0 max-h-[150vh] bg-black bg-opacity-90 z-50 w-2/5 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 h-full bg-black bg-opacity-90 z-50 w-2/5 transform transition-transform duration-300 ease-in-out ${
           isMobileNavVisible ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -136,8 +137,8 @@ function Navbar() {
           {["home", "about", "projects", "contact"].map((section) => (
             <button
               key={section}
-              className={`my-7 duration-200  cursor-pointer text-white text-lg hover:bg-opacity-35 hover:bg-gray-700 py-3 px-4 rounded-md ${
-                activeSection === section ? "bg-gradient-to-r from-orange-600 to-orange-400 bg-opacity-35" : ""
+              className={`my-7 duration-200  cursor-pointer text-white text-xl hover:bg-opacity-35 hover:bg-gray-700 py-3 px-10 rounded-xl ${
+                activeSection === section ? "bg-gradient-to-r from-orange-700 to-orange-400 bg-opacity-35" : ""
               }`}
               onClick={() => handleMobileLinkClick(section)}
             >

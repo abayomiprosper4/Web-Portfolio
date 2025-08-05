@@ -82,7 +82,7 @@ function Sec_1() {
                     : "opacity-0 translate-y-10"
                 }`}
               >
-                WEB DEVELOPER | UI/UX DESIGNER | SOCIAL MEDIA MANAGER.
+                WEB DEVELOPER | GRAPHICS DESIGNER | SOCIAL MEDIA MANAGER.
               </p>
               <div
                 className={`resume block text-center lg:flex items-center transition-all duration-1000 ${
