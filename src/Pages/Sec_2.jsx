@@ -86,7 +86,9 @@ function Sec_2() {
                     </p>
                   </div>
                   <div className="text-right animate-bounce text-xs sm:text-sm md:text-base lg:text-lg">
-                    Hover To See More <FiChevronRight className="inline" />
+                    <span className="inline lg:hidden">Tap to see more</span>
+                    <span className="hidden lg:inline">Hover to see more</span>
+                    <FiChevronRight className="inline ml-1" />
                   </div>
                 </div>
               </div>
