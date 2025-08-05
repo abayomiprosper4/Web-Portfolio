@@ -126,9 +126,9 @@ function Sec_2() {
               <div className="text-center">
                 <div className="text-xl sm:text-2xl md:text-3xl mt-8 lg:mt-16 mb-6 lg:mb-8 tracking-wide">
                   <span className="text-red-600 font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl border-b border-red-600">
-                    P
+                    B
                   </span>
-                  ages managed:
+                  rands managed:
                 </div>
                 <ul className="list-none flex justify-center items-center p-0 mt-4 flex-wrap gap-4 sm:gap-6">
                   <li className="flex flex-col items-center justify-center">

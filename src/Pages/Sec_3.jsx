@@ -4,7 +4,7 @@ import { BsArrowBarRight } from "react-icons/bs";
 
 function Sec_3() {
   return (
-    <div className="relative bg-gradient-to-tr from-gray-200 to-gray-100 bg-center bg-cover scroll-smooth min-h-screen w-full">
+    <div className="relative bg-hero-pattern2 bg-center bg-cover scroll-smooth min-h-screen w-full">
     <div className="flex flex-col items-center justify-center min-h-screen py-10 px-4 sm:px-6 md:px-8">
       <div className="flex flex-col items-center justify-center">
         <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">
