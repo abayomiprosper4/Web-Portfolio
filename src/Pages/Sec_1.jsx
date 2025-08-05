@@ -65,7 +65,7 @@ function Sec_1() {
                     <span className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl">HI !</span>
                   </div>
                   <div
-                    className={`mb-5 text-3xl sm:text-4xl md:text-5xl lg:text-9xl transition-all duration-1000 bg-gradient-to-r from-red-500 via-green-500 to-blue-500 text-transparent bg-clip-text ${
+                    className={`mb-5 text-3xl sm:text-4xl md:text-5xl lg:text-8xl transition-all duration-1000 bg-gradient-to-r from-red-500 via-green-500 to-blue-500 text-transparent bg-clip-text ${
                       animationStage >= 2
                         ? "opacity-100 translate-y-0"
                         : "opacity-0 translate-y-10"
