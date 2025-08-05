@@ -13,18 +13,18 @@ function App() {
   }, []);
 
   return (
-    <div className="min-w-[100vh] scroll-smooth">
+    <div className="w-full scroll-smooth overflow-x-hidden">
       <Navbar />
-      <section id="home" className="min-w-full sm:min-w-140vh">
+      <section id="home" className="w-full">
         <Sec_1 />
       </section>
-      <section id="about" className="min-w-full">
+      <section id="about" className="w-full">
         <Sec_2 />
       </section>
-      <section id="projects" className="min-w-full">
+      <section id="projects" className="w-full">
         <Sec_3 />
       </section>
-      <section id="contact" className="min-w-full">
+      <section id="contact" className="w-full">
         <Sec_4 />
       </section>
       <Footer />

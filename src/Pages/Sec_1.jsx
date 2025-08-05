@@ -48,24 +48,24 @@ function Sec_1() {
 
       <section
         id="home"
-        className=" relative z-10 flex items-center text-gray-100 h-auto"
+        className="relative z-10 flex items-center text-gray-100 min-h-screen"
       >
-        <div className="relative z-10 flex flex-col justify-center h-full">
-          <div className="p-20 text-left">
+        <div className="relative z-10 flex flex-col justify-center h-full w-full">
+          <div className="p-6 sm:p-10 md:p-16 lg:p-20 text-left">
             <div className="topic my-20">
               <div>
                 <span className="title font-semibold">
                   <div
-                    className={`txt01 mb-2 text-7xl lg:text-8xl font-bold transition-all duration-1000 bg-gradient-to-r from-red-700 via-red-300 to-green-300 inline-block text-transparent bg-clip-text ${
+                    className={`txt01 mb-2 text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold transition-all duration-1000 bg-gradient-to-r from-red-700 via-red-300 to-green-300 inline-block text-transparent bg-clip-text ${
                       animationStage >= 1
                         ? "opacity-100 translate-y-0"
                         : "opacity-0 translate-y-10"
                     }`}
                   >
-                    <span className="text-9xl">HI !</span>
+                    <span className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl">HI !</span>
                   </div>
                   <div
-                    className={`mb-5 text-7xl lg:text-8xl transition-all duration-1000 bg-gradient-to-r from-red-500 via-green-500 to-blue-500 text-transparent bg-clip-text ${
+                    className={`mb-5 text-2xl sm:text-3xl md:text-4xl lg:text-8xl transition-all duration-1000 bg-gradient-to-r from-red-500 via-green-500 to-blue-500 text-transparent bg-clip-text ${
                       animationStage >= 2
                         ? "opacity-100 translate-y-0"
                         : "opacity-0 translate-y-10"
@@ -76,7 +76,7 @@ function Sec_1() {
                 </span>
               </div>
               <p
-                className={`subtitle text-lg my-12 font-mono tracking-wide transition-all duration-1000 ${
+                className={`subtitle text-sm sm:text-base md:text-lg my-8 sm:my-12 font-mono tracking-wide transition-all duration-1000 ${
                   animationStage >= 3
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-10"
@@ -85,7 +85,7 @@ function Sec_1() {
                 WEB DEVELOPER | GRAPHICS DESIGNER | SOCIAL MEDIA MANAGER.
               </p>
               <div
-                className={`resume block text-center lg:flex items-center transition-all duration-1000 ${
+                className={`resume flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 transition-all duration-1000 ${
                   animationStage >= 4
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-10"
@@ -94,7 +94,7 @@ function Sec_1() {
                 <a
                   href="src/assets/Prosper CV.pdf"
                   download
-                  className="relative group inline-flex items-center border border-white text-white px-10 py-3 rounded-[5px] overflow-hidden transition-colors duration-300 mr-5 lg:mb-0 mb-5"
+                  className="relative group inline-flex items-center border border-white text-white px-6 sm:px-8 md:px-10 py-2 sm:py-3 text-sm sm:text-base rounded-[5px] overflow-hidden transition-colors duration-300"
                 >
                   <span className="relative z-10 flex items-center">
                     Resume <FiFile className="inline text-lg ml-1" />
@@ -104,7 +104,7 @@ function Sec_1() {
                 <a
                   href=""
                   download
-                  className="relative group inline-flex items-center border border-white text-white px-10 py-3 rounded-[5px] overflow-hidden transition-colors duration-5 00 mr-5 lg:mb-0 mb-5"
+                  className="relative group inline-flex items-center border border-white text-white px-6 sm:px-8 md:px-10 py-2 sm:py-3 text-sm sm:text-base rounded-[5px] overflow-hidden transition-colors duration-500"
                 >
                   <span className="relative z-10 flex items-center">
                     Explore Portfolio <FiArrowDown className="inline text-lg ml-1" />

@@ -137,7 +137,7 @@ function Navbar() {
           {["home", "about", "projects", "contact"].map((section) => (
             <button
               key={section}
-              className={`my-7 duration-200  cursor-pointer text-white text-xl hover:bg-opacity-35 hover:bg-gray-700 py-3 px-10 rounded-xl ${
+              className={`my-4 duration-200 cursor-pointer text-white text-lg hover:bg-opacity-35 hover:bg-gray-700 py-2 px-6 rounded-xl ${
                 activeSection === section ? "bg-gradient-to-r from-orange-700 to-orange-400 bg-opacity-35" : ""
               }`}
               onClick={() => handleMobileLinkClick(section)}
