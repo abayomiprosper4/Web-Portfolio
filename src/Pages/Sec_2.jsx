@@ -30,8 +30,8 @@ function Sec_2() {
           <div className="flex-1 mb-10 lg:mb-0">
             <div className="relative mt-8 lg:mt-14">
               <div className="relative w-full max-w-lg mx-auto lg:mx-0 h-96 sm:h-[420px] md:h-[450px] lg:h-[480px]">
-                {/* Blue box - hidden by default, visible on hover */}
-                <div className="absolute inset-0 bg-gray-900 text-white p-6 sm:p-8 md:p-10 lg:p-12 opacity-0 hover:opacity-100 transition-opacity duration-500 z-10 flex flex-col justify-center">
+                {/* Blue box - always present, visible when red box slides away */}
+                <div className="absolute inset-0 bg-gray-900 text-white p-6 sm:p-8 md:p-10 lg:p-12 z-10 flex flex-col justify-center">
                   <p className="text-sm sm:text-base md:text-[17px] mb-4">
                     Fueled by a passion for <span className="underline-offset-2 underline italic">technology</span> and <span className="underline-offset-2 underline italic">creativity</span>, I
                     seamlessly blend web development with strategic social media
@@ -48,8 +48,8 @@ function Sec_2() {
                   </p>
                 </div>
                 
-                {/* Red box - always visible, becomes transparent on hover */}
-                <div className="absolute inset-0 bg-red-600 p-6 sm:p-8 md:p-10 lg:p-12 text-white hover:opacity-0 transition-opacity duration-500 z-20 flex flex-col justify-between cursor-pointer">
+                {/* Red box - slides left on hover, slides back on mouse leave */}
+                <div className="absolute inset-0 bg-red-600 p-6 sm:p-8 md:p-10 lg:p-12 text-white hover:-translate-x-full transition-transform duration-500 z-20 flex flex-col justify-between cursor-pointer">
                   <div>
                     <div className="font-semibold mb-4 text-sm sm:text-base">
                       <span className="underline underline-offset-4">Web</span>
