@@ -33,7 +33,7 @@ function Sec_1() {
 
       <video
         className=" inset-0 h-full object-center w-full fixed object-cover -z-10"
-        src="public/motion.mp4"
+        src="/videos/motion.mp4"
         autoPlay
         loop
         muted
